@@ -1,4 +1,5 @@
 public class Main {
+
     public static void main(String[] args) {
 
         Car audiQ7 = new Car("Audi Q7", 4);
@@ -18,5 +19,4 @@ public class Main {
         serviceStation.checkTransport(merida);
         serviceStation.checkTransport(stels);
     }
-
 }

@@ -4,8 +4,6 @@ public class Car extends Transport {
         super(modelName, wheelsCount);
     }
 
-
-
     public void updateTyre() {
         System.out.println("Чистим диски");
     }

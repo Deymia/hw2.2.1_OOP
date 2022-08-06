@@ -1,10 +1,5 @@
 public class ServiceStation  {
 
-//    public ServiceStation(String modelName, int wheelsCount) {
-//        super(modelName, wheelsCount);
-//    }
-
-
     public void checkTransport (Transport transport) {
         if (transport.getWheelsCount() == 4) {
             Car car = new Car(transport.getModelName(), transport.getWheelsCount());
