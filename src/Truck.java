@@ -13,6 +13,6 @@ public class Truck extends Transport {
     }
 
     public void checkTrailer() {
-        System.out.println("Проверяем прицеп");
+        System.out.println("Ищем в прицепе запрещенку");
     }
 }

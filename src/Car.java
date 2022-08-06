@@ -7,10 +7,10 @@ public class Car extends Transport {
 
 
     public void updateTyre() {
-        System.out.println("Меняем покрышку");
+        System.out.println("Чистим диски");
     }
 
     public void checkEngine() {
-        System.out.println("Проверяем двигатель");
+        System.out.println("Перебираем двигатель");
     }
 }
